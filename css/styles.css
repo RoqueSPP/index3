@@ -1,0 +1,17 @@
+div#app {
+    text-align: center;
+    background-color: coral;
+    width: 800px;
+    margin: auto;
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+
+}
+
+.item img{
+    max-width: 200px;
+}
