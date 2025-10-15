@@ -51,7 +51,7 @@ body {
 }
 
 .characters .item img:hover {
-   border: 5px #FD4 solid;
+   border: 5px rgb(15, 26, 87) solid;
 }
 
 input {
@@ -64,7 +64,7 @@ input {
 button {
    padding: 0.75em 1.25em;
    border-radius: 8px;
-   background-color: #FD4;
+   background-color: rgb(52, 50, 163);
    color: #111;
    font-size: 1rem;
    border: none;
