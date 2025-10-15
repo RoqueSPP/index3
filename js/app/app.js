@@ -20,7 +20,7 @@ const LIST = [
     {
         id: 4,
         nome: 'Mestre Yoda',
-        avatar: './imagens/c3po.png'
+        avatar: './imagens/yoda.png'
     },
     {
         id: 5,
