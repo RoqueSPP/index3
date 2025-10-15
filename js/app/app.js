@@ -56,10 +56,18 @@ const App = new Vue({
         Like(userN) {
             alert(`o Personagem preferido ${userN} ganhou um Gostei`)
         },
+        remove(id) {
+            const list = this.characters
+            const result = list.filter((Item) => {
+                return Item.id !== id
+            })
+            this.characters = result
+
+        },
         search() {
-            if (this.searchName ==='') {
-               return alert(' O campo busca é obrigatório')
-                
+            if (this.searchName === '') {
+                return alert(' O campo busca é obrigatório')
+
             }
             const list = this.characters = LIST
             const result = list.filter((Item) => {
