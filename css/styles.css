@@ -51,7 +51,7 @@ body {
 }
 
 .characters .item img:hover {
-   border: 5px #FD4 solid;
+   border: 5px rgb(15, 26, 87) solid;
 }
 
 input {
