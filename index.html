@@ -12,20 +12,25 @@
 
 <body>
     <div id="app">
-        <h1>{{ title }}</h1>
-        <small>{{ userName }}</small>
-        <form>
-            <input placeholder="Pesquisar por Nome" v-model="searchName" />
-            <button type="button" @click="search()">Pesquisar</button>
-        </form>
+
+        <div class="top">
+            <div>
+                <h1>{{ title }}</h1>
+                <small>{{ userName }}</small>
+            </div>
+            <form>
+                <input placeholder="Pesquisar por Nome" v-model="searchName" />
+                <button type="button" @click="search()">Pesquisar</button>
+            </form>
+        </div>
         <div class="characters">
             <div class="item" v-for="item of characters">
                 <Img :src="item.avatar" :alt="item.nome">
                 <p>{{ item.nome }}</p>
-                <span @click="Like(item.nome)" class="material-symbols-outlined">
-                    heart_check
-                </span>
-                <button @click="remove(item.id)">Remover</button>
+                <div class="container">
+                    <span @click="Like(item.nome)" class="icon">♡</span>
+                    <button @click="remove(item.id)">Remover</button>
+                </div>
             </div>
         </div>
     </div>
