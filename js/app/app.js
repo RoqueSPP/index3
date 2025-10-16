@@ -4,17 +4,17 @@
 const LIST = [
     {
         id: 1,
-        nome: 'C3PO',
+        nome: 'C-3PO',
         avatar: './imagens/c3po.png'
     },
     {
         id: 2,
-        nome: 'CHEWBACCA',
+        nome: 'Chewbacca',
         avatar: './imagens/chewbacca.png'
     },
     {
         id: 3,
-        nome: 'HANSOLO',
+        nome: 'Han Solo',
         avatar: './imagens/hansolo.png'
     },
     {
@@ -24,7 +24,7 @@ const LIST = [
     },
     {
         id: 5,
-        nome: 'Princesa LEIA',
+        nome: 'Princesa Leia',
         avatar: './imagens/leia.png'
     },
     {
@@ -34,12 +34,12 @@ const LIST = [
     },
     {
         id: 7,
-        nome: 'R2D2',
+        nome: 'R2-D2',
         avatar: './imagens/r2d2.png'
     },
     {
         id: 8,
-        nome: 'Vader',
+        nome: 'Darth Vader',
         avatar: './imagens/vader.png'
     }
 ]

@@ -5,6 +5,7 @@ body {
    background-position: center;
    background-color: #111;
    color: #CCC;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #app {
@@ -22,7 +23,7 @@ body {
 }
 
 .top h1 {
-   font-size: 2em;
+   font-size: 1em;
    margin: 0;
    color: #fff;
 }
@@ -51,7 +52,7 @@ body {
 }
 
 .characters .item img:hover {
-   border: 5px rgb(15, 26, 87) solid;
+   border: 5px rgb(105, 201, 97) solid;
 }
 
 input {
@@ -60,13 +61,24 @@ input {
    border: none;
    font-size: 1rem;
 }
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* espaço entre o ícone e o botão */
+  }
 
-button {
-   padding: 0.75em 1.25em;
-   border-radius: 8px;
-   background-color: rgb(52, 50, 163);
-   color: #111;
-   font-size: 1rem;
-   border: none;
-}
+  .icon {
+    font-size: 40px;
+    color: rgb(206, 82, 169);
+    cursor: pointer;
+  }
 
+  button {
+    background: #c5d374;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
